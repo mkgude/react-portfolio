@@ -1,30 +1,31 @@
 import React from "react";
+import "../styles/style.css";
 
 function Footer() {
   return (
-    <div class="container">
-      <ul class="nav justify-content-center footer-edits">
-        <li class="nav-item">
+    <div className="container">
+      <ul className="nav justify-content-center footer-edits">
+        <li className="nav-item">
           <a
-            class="nav-link active footer-link"
+            className="nav-link active footer-link"
             href="https://www.linkedin.com/in/mkgude"
             target="blank"
           >
             LinkedIN
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a
-            class="nav-link footer-link"
+            className="nav-link footer-link"
             href="https://github.com/mkgude"
             target="blank"
           >
             GitHub
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a
-            class="nav-link footer-link"
+            className="nav-link footer-link"
             href="https://www.instagram.com/mkgude/"
             target="blank"
           >

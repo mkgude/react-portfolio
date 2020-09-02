@@ -1,22 +1,20 @@
 import React from "react";
+import "../styles/style.css";
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
-    <div class="col mb-4">
-      <div class="card card-width">
-        <a href="https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/">
+    <div className="col mb-4">
+      <div className="card card-width">
+        <a href={props.href}>
           <img
-            src="Assets/lemons-tree.jpg"
-            class="card-img-top porfolio-img"
-            alt="project 1 joke generator"
+            src={props.image}
+            className="card-img-top porfolio-img"
+            alt={props.alt}
           />
         </a>
-        <div class="card-body">
-          <h5 class="card-title">"Inside" Joke</h5>
-          <p class="card-text">
-            Need a laugh? Use our joke generator to get jokes at the drop of a
-            hat!
-          </p>
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">{props.description}</p>
         </div>
       </div>
     </div>

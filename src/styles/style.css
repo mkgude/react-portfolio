@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 15px;
+  text-transform: lowercase;
+}
+
+.footer-link {
+  color: rgb(179, 192, 179);
+}
+
+.nav-link-edit {
+  color: rgb(79, 141, 79);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#main-section {
+  margin-top: 50px;
+  align-content: center;
+}
+
+h1 {
+  color: rgb(79, 141, 79);
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+  text-transform: lowercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: rgb(94, 92, 92);
+}
+
+#profile-image {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.porfolio-img {
+  height: 179px;
+  border: rgb(136, 134, 134) 1px solid;
+}
+
+.form-text {
+  text-transform: lowercase;
+}
+hr {
+  border: 3px solid rgb(175, 206, 175);
+  width: 100%;
+}
+
+.footer-edits {
+  color: beige;
+}
+
+.submit-button {
+  background-color: rgb(151, 204, 151);
+  border: 1px solid rgb(151, 204, 151);
+}
+
+.card-width {
+  width: 300px;
+  margin: 20px;
+}
+
+.header-wrap {
+  height: auto;
+  width: 100%;
+}
+
+.header-wrap-2 {
+  background-color: rgb(183, 202, 183);
+}
+
+/* special css for small screen  */
+/* @media screen and (min-width: 576px) {
+  .header-wrap {
+    width: 600px;
+  }
+  #h1,
+  #nav {
+    width: 80%;
+    margin: 5px;
+    float: left;
+  }
+
+  #main-section {
+    width: 100%;
+  }
+
+  #portfolio-section {
+    width: 100%;
+  }
+
+  .card-width {
+    width: 300px;
+  }
+}
+
+
+/* special css for medium screen  */
+/* @media screen and (min-width: 768px) {
+  .header-wrap {
+    width: 100%;
+  }
+  #h1,
+  #nav {
+    width: 100%;
+    margin: 5px;
+    float: left;
+  }
+
+  #h1 {
+    background-color: white;
+    color: rgb(79, 141, 79);
+  }
+  #main-section {
+    width: 100%;
+  } */
+
+/* #portfolio-section {
+    width: 100%;
+  }
+
+  .card-width {
+    width: 350px;
+  }
+}
+
+/* special css for large screen  */
+/* @media screen and (min-width: 992px) {
+  .header-wrap {
+    width: 100%;
+  }
+  #main-section {
+    width: 100%;
+  }
+
+  #portfolio-section {
+    width: 100%;
+  }
+  .card-width {
+    width: 350px;
+  }
+} */

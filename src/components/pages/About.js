@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
-
+import "../../styles/style.css";
 function About() {
   return (
     <div>
