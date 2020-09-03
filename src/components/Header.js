@@ -7,36 +7,71 @@ function Header() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <header class="header-wrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
         <Link
           to="/"
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
-          About
+          <h1>Marian Gude</h1>
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/projects"
-          className={
-            location.pathname === "/projects" ? "nav-link active" : "nav-link"
-          }
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          Projects
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact"
-          className={
-            location.pathname === "/contact" ? "nav-link active" : "nav-link"
-          }
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
         >
-          Contact
-        </Link>
-      </li>
-    </ul>
+          <ul class="nav justify-content-end">
+            <li class="nav-item nav-options">
+              <Link
+                to="/about"
+                className={
+                  location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                About
+              </Link>
+            </li>
+            <li class="nav-item nav-options">
+              <Link
+                to="/projects"
+                className={
+                  location.pathname === "/projects"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Projects
+              </Link>
+            </li>
+            <li class="nav-item nav-options">
+              <Link
+                to="/contact"
+                className={
+                  location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 }
 export default Header;

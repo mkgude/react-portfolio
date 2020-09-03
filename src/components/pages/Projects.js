@@ -18,13 +18,7 @@ function Projects() {
               a hat!"
             alt="inside joint"
             image={image}
-          />
-          <ProjectCard
-            href="https://github.com/mkgude/hw10-team-dashboard"
-            title="Team Generator"
-            description="Utilize this tool in node.js to generate an html page of your team and their information."
-            alt="team generator"
-            image={image}
+            github="https://github.com/mkgude/marian-mike-jessica-camrynne-Joke-Factory"
           />
           <ProjectCard
             href="https://stormy-dawn-09058.herokuapp.com/"
@@ -32,6 +26,7 @@ function Projects() {
             description="Connect with local NonProfits who need assistance with their websites and technology. This is a place for volunteers to share skills and gain experience."
             alt="beehive"
             image={image}
+            github="https://github.com/mkgude/Stormy-Dawn"
           />
           <ProjectCard
             href="https://dry-mountain-53041.herokuapp.com/"
@@ -39,6 +34,7 @@ function Projects() {
             description="Search through your employee roster by name to find your team!"
             alt="employee roster"
             image={image}
+            github="https://github.com/mkgude/employee-roster"
           />
           <ProjectCard
             href="https://evening-escarpment-30021.herokuapp.com/"
@@ -46,6 +42,15 @@ function Projects() {
             description="What type of burger do you want?!"
             alt="burger joint"
             image={image}
+            github="https://github.com/mkgude/burger_joint"
+          />
+          <ProjectCard
+            href="https://github.com/mkgude/hw10-team-dashboard"
+            title="Team Generator"
+            description="Utilize this tool in node.js to generate an html page of your team and their information."
+            alt="team generator"
+            image={image}
+            github="https://github.com/mkgude/hw12-employeemanager"
           />
           <ProjectCard
             href="https://evening-escarpment-30021.herokuapp.com/"
@@ -53,6 +58,7 @@ function Projects() {
             description="A way to track how much money is coming in and out of your pocket!"
             alt="budget tracker"
             image={image}
+            github="https://github.com/mkgude/budgettracker"
           />
         </div>
       </main>
