@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import "../../styles/style.css";
+import Image from "../../img/photo.jpeg";
 function About() {
   return (
     <div>
@@ -10,7 +11,7 @@ function About() {
         <div class="row">
           <div class="col">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEmhJ3pgYkLCg/profile-displayphoto-shrink_400_400/0?e=1599091200&v=beta&t=CO5STGmoJmCasSQ5pIRgmD_Gg4WDbonojQw7HxMA2F4"
+              src={Image}
               class="rounded float-left"
               id="profile-image"
               alt="profileimage"
