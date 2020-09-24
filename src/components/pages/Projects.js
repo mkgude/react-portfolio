@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer";
 import ProjectCard from "../ProjectCard";
 import "../../styles/style.css";
-import image from "../../img/lemons-tree.jpg";
+import image from "../../img/lemonstree.jpg";
 
 function Projects() {
   return (
@@ -12,21 +12,12 @@ function Projects() {
         <hr />
         <div className="row row-cols-1 row-cols-md-2">
           <ProjectCard
-            href="https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/"
-            title="'Inside' Joke"
-            description="Need a laugh? Use our joke generator to get jokes at the drop of
-              a hat!"
-            alt="inside joint"
+            href="https://radiant-scrubland-65764.herokuapp.com/"
+            title="Happy Cloud"
+            description="Use our journal to add your daily word of gratitude"
+            alt="gratitude journal"
             image={image}
-            github="https://github.com/mkgude/marian-mike-jessica-camrynne-Joke-Factory"
-          />
-          <ProjectCard
-            href="https://stormy-dawn-09058.herokuapp.com/"
-            title="The BeeHive"
-            description="Connect with local NonProfits who need assistance with their websites and technology. This is a place for volunteers to share skills and gain experience."
-            alt="beehive"
-            image={image}
-            github="https://github.com/mkgude/Stormy-Dawn"
+            github="https://github.com/JessicaPerez1/Happy-Cloud"
           />
           <ProjectCard
             href="https://dry-mountain-53041.herokuapp.com/"
@@ -37,28 +28,20 @@ function Projects() {
             github="https://github.com/mkgude/employee-roster"
           />
           <ProjectCard
+            href="https://stormy-dawn-09058.herokuapp.com/"
+            title="The BeeHive"
+            description="Connect with local NonProfits who need assistance with their websites and technology. This is a place for volunteers to share skills and gain experience."
+            alt="beehive"
+            image={image}
+            github="https://github.com/mkgude/Stormy-Dawn"
+          />
+          <ProjectCard
             href="https://evening-escarpment-30021.herokuapp.com/"
             title="Burger Joint"
             description="What type of burger do you want?!"
             alt="burger joint"
             image={image}
             github="https://github.com/mkgude/burger_joint"
-          />
-          <ProjectCard
-            href="https://github.com/mkgude/hw10-team-dashboard"
-            title="Team Generator"
-            description="Utilize this tool in node.js to generate an html page of your team and their information."
-            alt="team generator"
-            image={image}
-            github="https://github.com/mkgude/hw12-employeemanager"
-          />
-          <ProjectCard
-            href="https://evening-escarpment-30021.herokuapp.com/"
-            title="Budget Tracker"
-            description="A way to track how much money is coming in and out of your pocket!"
-            alt="budget tracker"
-            image={image}
-            github="https://github.com/mkgude/budgettracker"
           />
         </div>
       </main>

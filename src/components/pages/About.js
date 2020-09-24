@@ -18,18 +18,9 @@ function About() {
             />
             <p>
               Hi! My name is Marian Gude and I am a full-stack web developer
-              living in New York City.
-            </p>
-            <p>
-              Before I started to focus in web development, I was a client
-              success manager working in the healthcare space. I dabbled in
-              frontend web design as side projects, and truyly enjoy
-              collaborating with others to create and innovate, so decided to
-              turn my hobby into a career path.
-            </p>
-            <p>
-              My goal as a web developer is to build you a beautiful website
-              with great UX/UI!
+              living in New York City. I aspire to build beautiful websites and
+              help you achieve your goals in having a great experience for your
+              clients and visitors.
             </p>
             <p>
               Outside of my aspirations to be a great web developer, I also love
