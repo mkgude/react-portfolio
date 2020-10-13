@@ -5,30 +5,30 @@ import Image from "../../img/profile-crop-2.jpg";
 function About() {
   return (
     <div>
-      <main class="container" id="main-section">
+      <main className="container" id="main-section">
         <h2>About Me</h2>
         <hr />
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <img
               src={Image}
-              class="rounded float-left"
+              className="rounded float-left"
               id="profile-image"
               alt="profileimage"
             />
-            <p>
-              Hi! My name is Marian Gude and I am a full-stack web developer
-              living in New York City. I aspire to build beautiful websites and
-              help you achieve your goals in having a great experience for your
-              clients and visitors.
-            </p>
-            <p>
-              Outside of my aspirations to be a great web developer, I also love
-              to bake, hang out with my family and friends and attempt to be
-              outside as much as possible. I love to travel and have seen all
-              but one state in the US. Always available or travel chats and
-              questions too!
-            </p>
+            <div className="about-content">
+              <p>
+                Hi! My name is Marian Gude and I am a full-stack web developer
+                living in New York City. I aspire to help you achieve your goals
+                for flawless UX/UI design and with clean code to back it!
+              </p>
+              <p>
+                Outside of my aspirations to be the web developer you need, I
+                also love to bake, hang out with my family and friends and
+                attempt to be outside as much as possible. I love to travel and
+                have seen all but one state in the US.
+              </p>
+            </div>
           </div>
         </div>
       </main>

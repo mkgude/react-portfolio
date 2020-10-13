@@ -92,75 +92,8 @@ hr {
 .header-wrap-2 {
   background-color: rgb(183, 202, 183);
 }
-
-/* special css for small screen  */
-/* @media screen and (min-width: 576px) {
-  .header-wrap {
-    width: 600px;
-  }
-  #h1,
-  #nav {
-    width: 80%;
-    margin: 5px;
-    float: left;
-  }
-
-  #main-section {
-    width: 100%;
-  }
-
-  #portfolio-section {
-    width: 100%;
-  }
-
-  .card-width {
-    width: 300px;
-  }
+.about-content {
+  margin: 2em;
+  padding-top: 2em;
+  padding-left: 1em;
 }
-
-
-/* special css for medium screen  */
-/* @media screen and (min-width: 768px) {
-  .header-wrap {
-    width: 100%;
-  }
-  #h1,
-  #nav {
-    width: 100%;
-    margin: 5px;
-    float: left;
-  }
-
-  #h1 {
-    background-color: white;
-    color: rgb(79, 141, 79);
-  }
-  #main-section {
-    width: 100%;
-  } */
-
-/* #portfolio-section {
-    width: 100%;
-  }
-
-  .card-width {
-    width: 350px;
-  }
-}
-
-/* special css for large screen  */
-/* @media screen and (min-width: 992px) {
-  .header-wrap {
-    width: 100%;
-  }
-  #main-section {
-    width: 100%;
-  }
-
-  #portfolio-section {
-    width: 100%;
-  }
-  .card-width {
-    width: 350px;
-  }
-} */
