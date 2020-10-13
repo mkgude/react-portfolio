@@ -23,15 +23,6 @@ function Footer() {
             GitHub
           </a>
         </li>
-        <li className="nav-item">
-          <a
-            className="nav-link footer-link"
-            href="https://www.instagram.com/mkgude/"
-            target="blank"
-          >
-            Instagram
-          </a>
-        </li>
       </ul>
     </div>
   );

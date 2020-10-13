@@ -23,7 +23,8 @@ header {
   margin-bottom: 20px;
 }
 
-#main-section {
+#main-section,
+#contact-section {
   margin-top: 50px;
   align-content: center;
 }
@@ -96,4 +97,14 @@ hr {
   margin: 2em;
   padding-top: 2em;
   padding-left: 1em;
+}
+
+.icon {
+  width: 6em;
+  margin: 6em;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
 }
