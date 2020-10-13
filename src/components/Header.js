@@ -7,8 +7,8 @@ function Header() {
   const location = useLocation();
 
   return (
-    <header class="header-wrap">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
+    <header className="header-wrap">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
         <Link
           to="/"
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
@@ -16,7 +16,7 @@ function Header() {
           <h1>Marian Gude</h1>
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -24,15 +24,15 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul class="nav justify-content-end">
-            <li class="nav-item nav-options">
+          <ul className="nav justify-content-end">
+            <li className="nav-item nav-options">
               <Link
                 to="/about"
                 className={
@@ -44,7 +44,7 @@ function Header() {
                 About
               </Link>
             </li>
-            <li class="nav-item nav-options">
+            <li className="nav-item nav-options">
               <Link
                 to="/projects"
                 className={
@@ -56,7 +56,7 @@ function Header() {
                 Projects
               </Link>
             </li>
-            <li class="nav-item nav-options">
+            <li className="nav-item nav-options">
               <Link
                 to="/contact"
                 className={

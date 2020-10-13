@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import "../../styles/style.css";
-import Image from "../../img/photo.jpeg";
+import Image from "../../img/profile-crop-2.jpg";
 function About() {
   return (
     <div>
