@@ -4,7 +4,7 @@ See how I utilize React to create a portfolio about my projects!
 
 ## App Screenshot
 
-![appscreenshot](src/img/appScreenshot.jpeg)
+![appscreenshot](src/img/appScreenshot.png)
 
 ## Links
 
