@@ -1,10 +1,9 @@
 import React from "react";
 import Footer from "../Footer";
 import "../../styles/style.css";
-import linkedin from "../../img/linkedin-logo-png-1836.png";
-import gitHub from "../../img/github.png";
-import portfolio from "../../img/portfolio-fav.png";
-import emailEnvelope from "../../img/email-icon.png";
+import linkedin from "../../img/linkedin2.png";
+import gitHub from "../../img/github2.png";
+import emailEnvelope from "../../img/email2.png";
 
 function Contact() {
   return (
@@ -12,31 +11,44 @@ function Contact() {
       <main className="container" id="contact-section">
         <h2>Contact</h2>
         <hr />
-        <div className="contact-icons">
-          <a href="mailto:mkgude@gmail.com">
-            <img
-              src={emailEnvelope}
-              className="rounded icon"
-              id="linkedin-icon"
-              alt="linkedin"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/mkgude">
-            <img
-              src={linkedin}
-              className="rounded icon"
-              id="linkedin-icon"
-              alt="linkedin"
-            />
-          </a>
-          <a href="https://github.com/mkgude">
-            <img
-              src={gitHub}
-              className="rounded icon"
-              id="github-icon"
-              alt="github"
-            />
-          </a>
+        <h5>Get in touch with me at the following avenues...</h5>
+        <div className="contact-icons row">
+          <div className="contact-div col-sm-4">
+            <div className="background-img">
+              <a href="https://www.linkedin.com/in/mkgude">
+                <img
+                  src={linkedin}
+                  className="icon"
+                  id="linkedin-icon"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="contact-div col-sm-4">
+            <div className="background-img">
+              <a href="https://github.com/mkgude">
+                <img
+                  src={gitHub}
+                  className="icon"
+                  id="github-icon"
+                  alt="github"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="contact-div col-sm-4">
+            <div className="background-img">
+              <a href="mailto:mkgude@gmail.com">
+                <img
+                  src={emailEnvelope}
+                  className="icon"
+                  id="linkedin-icon"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

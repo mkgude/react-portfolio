@@ -100,11 +100,13 @@ hr {
 }
 
 .icon {
-  width: 6em;
+  width: 50%;
   margin: 6em;
+  border-radius: 50%;
 }
 
 .contact-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
