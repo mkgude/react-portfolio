@@ -15,8 +15,9 @@ function ProjectCard(props) {
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
+          <p className="card-text">{props.technologies}</p>
           <a className="nav-link" href={props.github} target="blank">
-            <button type="button" class="btn btn-outline-success">
+            <button type="button" class="btn btn-outline-secondary">
               GitHub Link
             </button>
           </a>
