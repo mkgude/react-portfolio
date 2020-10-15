@@ -11,7 +11,9 @@ function Contact() {
       <main className="container" id="contact-section">
         <h2>Contact</h2>
         <hr />
-        <p className="contact-text">Get in touch!</p>
+        <p className="contact-text">
+          Interested in getting in touch? Use the links below!
+        </p>
         <div className="contact-icons row">
           <div className="contact-div col-sm-4">
             <div className="background-img">
