@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../Footer";
-import ProjectCard from "../ProjectCard";
-import "../../styles/style.css";
-import image1 from "../../img/happycloudimg.png";
-import image2 from "../../img/timemagimg.png";
-import image3 from "../../img/beehiveimg.png";
-import image4 from "../../img/bluebrgrimg.png";
+import Footer from "../components/Footer";
+import ProjectCard from "../components/ProjectCard";
+import "../styles/style.css";
+import image1 from "../img/happycloudimg.png";
+import image2 from "../img/timemagimg.png";
+import image3 from "../img/beehiveimg.png";
+import image4 from "../img/bluebrgrimg.png";
 
 function Projects() {
   return (
@@ -57,3 +57,26 @@ function Projects() {
   );
 }
 export default Projects;
+
+// import React from "react";
+// import { Container } from "react-bootstrap";
+// import CardDeck from "react-bootstrap/CardDeck";
+// import Footer from "../components/Footer";
+// import ProjectCard from "../components/ProjectCard";
+// import "../styles/style.css";
+
+// function Projects() {
+//   return (
+//     <div>
+//       <Container className="container" id="main-section">
+//         <h2>Portfolio</h2>
+//         <hr />
+//         <CardDeck>
+//           <ProjectCard />
+//         </CardDeck>
+//       </Container>
+//       <Footer />
+//     </div>
+//   );
+// }
+// export default Projects;
