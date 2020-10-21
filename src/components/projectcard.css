@@ -1,0 +1,15 @@
+.porfolio-img {
+  height: 179px;
+  border: lightgrey 1px solid;
+}
+.card {
+  border: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.github-button {
+  align-content: center;
+}

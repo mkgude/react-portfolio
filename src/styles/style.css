@@ -9,21 +9,12 @@ header {
   text-transform: lowercase;
 }
 
-.footer-link {
-  color: rgb(179, 192, 179);
-}
-
 .nav-link {
   color: rgb(79, 141, 79);
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
 }
-.container {
-  width: 100%;
-  margin-bottom: 20px;
-}
 
-#main-section,
 #contact-section {
   margin-top: 50px;
   align-content: center;
@@ -58,11 +49,6 @@ p {
   height: auto;
 }
 
-.porfolio-img {
-  height: 179px;
-  border: rgb(136, 134, 134) 1px solid;
-}
-
 .form-text {
   text-transform: lowercase;
 }
@@ -73,16 +59,6 @@ hr {
 
 .footer-edits {
   color: beige;
-}
-
-.submit-button {
-  background-color: rgb(151, 204, 151);
-  border: 1px solid rgb(151, 204, 151);
-}
-
-.card-width {
-  width: 300px;
-  margin: 20px;
 }
 
 .header-wrap {
