@@ -1,0 +1,17 @@
+.header-wrap {
+  padding: 0;
+  margin-top: 1em;
+}
+.header-width {
+  width: 100%;
+}
+.dropdown {
+  margin-right: 100px;
+}
+.dropdown-button {
+  background-color: rgb(178, 196, 178);
+  border: none;
+}
+.menu-icon {
+  width: 20px;
+}

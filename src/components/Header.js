@@ -1,38 +1,38 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/style.css";
+import "./header.css";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+// import { Button } from "react-bootstrap";
+import Dropdown from "react-bootstrap/Dropdown";
+import flower from "../img/flower.png";
 
 function Header() {
   // navigation that appears on every page
   const location = useLocation();
 
   return (
-    <header className="header-wrap">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
+    <Navbar className="header-wrap navbar-measurments">
+      <Nav className="navbar navbar-light bg-light header-width">
         <Link
           to="/"
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
           <h1>Marian Gude</h1>
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
 
-        <div
-          className="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul className="nav justify-content-end">
-            <li className="nav-item nav-options">
+        <Dropdown className="justify-content-end dropdown float-right">
+          <Dropdown.Toggle
+            className="dropdown-button"
+            variant="secondary"
+            id="dropdown-basic"
+          >
+            <img className="menu-icon" src={flower} alt="menu dropdown" />
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item>
               <Link
                 to="/about"
                 className={
@@ -43,8 +43,8 @@ function Header() {
               >
                 About
               </Link>
-            </li>
-            <li className="nav-item nav-options">
+            </Dropdown.Item>
+            <Dropdown.Item>
               <Link
                 to="/projects"
                 className={
@@ -55,8 +55,8 @@ function Header() {
               >
                 Projects
               </Link>
-            </li>
-            <li className="nav-item nav-options">
+            </Dropdown.Item>
+            <Dropdown.Item>
               <Link
                 to="/contact"
                 className={
@@ -67,11 +67,11 @@ function Header() {
               >
                 Contact
               </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </Nav>
+    </Navbar>
   );
 }
 export default Header;
