@@ -7,7 +7,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div>
-      <Container className="container" id="main-section">
+      <Container className="main-container" id="main-section">
         <h2>Portfolio</h2>
         <hr />
         <ProjectCard />

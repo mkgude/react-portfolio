@@ -4,6 +4,7 @@
 }
 .header-width {
   width: 100%;
+  padding: 0;
 }
 .dropdown {
   margin-right: 100px;
@@ -14,4 +15,12 @@
 }
 .menu-icon {
   width: 20px;
+}
+h1 {
+  margin: 0;
+  font-size: 70px;
+  font-family: "Sacramento", cursive;
+  color: rgb(86, 105, 86);
+  padding-left: 50px;
+  text-transform: capitalize;
 }

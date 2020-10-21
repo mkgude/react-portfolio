@@ -4,11 +4,12 @@ import "./contact.css";
 import linkedin from "../img/linkedin2.png";
 import gitHub from "../img/github2.png";
 import emailEnvelope from "../img/email2.png";
+import { Container } from "react-bootstrap";
 
 function Contact() {
   return (
     <div>
-      <main className="container" id="contact-section">
+      <Container className="main-container" id="contact-section">
         <h2>Contact</h2>
         <hr />
         <p className="contact-text">
@@ -52,7 +53,7 @@ function Contact() {
             </div>
           </div>
         </div>
-      </main>
+      </Container>
       <Footer />
     </div>
   );

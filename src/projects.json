@@ -4,7 +4,7 @@
     "href": "https://radiant-scrubland-65764.herokuapp.com/",
     "title": "Happy Cloud",
     "description": "Use our journal to add your daily word of gratitude. Once you have a few days completed, utilize the wordcloud generator to see a mix of your gratefulness.",
-    "technologies": "Technologies Used: React, HTML, CSS, Javascript, Material-UI, 3rd Party APIs, MongoDB, Node.js, Express.js, JSON",
+    "technologies": "MERN stack, Material-UI, 3rd Party APIs",
     "alt": "gratitude journal",
     "image": "https://target.scene7.com/is/image/Target/GUEST_c537ba13-83f7-49bf-975d-251f38d17d9d?wid=488&hei=488&fmt=pjpeg",
     "github": "https://github.com/JessicaPerez1/Happy-Cloud"
@@ -14,7 +14,7 @@
     "href": "https://dry-mountain-53041.herokuapp.com/",
     "title": "Roster",
     "description": "Search through a roster by name to find the world's leading ladies of the last century!",
-    "technologies": "Technologies Used: React, HTML, CSS, Javascript, JSON, Bootstrap",
+    "technologies": "React, JSON, React-Bootstrap",
     "alt": "employee roster",
     "image": "https://www.maskandmirror.com/uploads/2/8/1/6/28168229/leadingladieslogo_1.png",
     "github": "https://github.com/mkgude/employee-roster"
@@ -24,7 +24,7 @@
     "href": "https://stormy-dawn-09058.herokuapp.com/",
     "title": "The BeeHive",
     "description": "Connect with local NonProfits who need assistance with their websites and technology. This is a place for volunteers to share skills and gain experience.",
-    "technologies": "Technologies Used: Javascript, HTML, CSS, MySQL, Node.js, Express.js",
+    "technologies": "Javascript, MySQL, Node.js, Express.js",
     "alt": "beehive",
     "image": "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/9527/beehive-clipart-md.png",
     "github": "https://github.com/mkgude/Stormy-Dawn"
@@ -34,7 +34,7 @@
     "href": "https://salty-castle-86073.herokuapp.com/",
     "title": "Burger Joint",
     "description": "What type of burger do you want?! Use the buttons to devour your burger or add it back onto the list",
-    "technologies": "Technologies Used: Javascript, HTML, CSS, Handlebars",
+    "technologies": "Javascript, HTML, CSS, Handlebars",
     "alt": "burger joint",
     "image": "https://images.creativemarket.com/0.1.0/ps/8767742/910/607/m1/fpnw/wm0/24-7-hour-service-icon-set-color-1-.jpg?1595443680&s=ee4736b83a6a6650bdee9a6702af5b7c",
     "github": "https://github.com/mkgude/burger_joint"

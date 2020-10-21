@@ -22,16 +22,15 @@ function Header() {
           <h1>Marian Gude</h1>
         </Link>
 
-        <Dropdown className="justify-content-end dropdown float-right">
+        <Dropdown className="justify-content-end dropdown">
           <Dropdown.Toggle
-            className="dropdown-button"
-            variant="secondary"
-            id="dropdown-basic"
+            className="dropdown-button justify-content-end"
+            variant="light"
           >
             <img className="menu-icon" src={flower} alt="menu dropdown" />
           </Dropdown.Toggle>
 
-          <Dropdown.Menu>
+          <Dropdown.Menu menuAlign="right" id="dropdown-menu-align-right">
             <Dropdown.Item>
               <Link
                 to="/about"
@@ -53,7 +52,7 @@ function Header() {
                     : "nav-link"
                 }
               >
-                Projects
+                Portfolio
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>

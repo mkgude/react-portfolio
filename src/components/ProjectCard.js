@@ -3,6 +3,7 @@ import "./projectcard.css";
 import Projects from "../projects.json";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 // import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
@@ -22,19 +23,17 @@ function ProjectCard() {
             </a>
             <Card.Body>
               <Card.Title className="title">{project.title}</Card.Title>
-              <Card.Text className="card-text">{project.description}</Card.Text>
-              <Card.Text className="card-text">
+              <a
+                className="nav-link github-button"
+                href={project.github}
+                target="blank"
+              >
+                <Link className="github-text">GitHub Repository</Link>
+              </a>
+              <Card.Text className="card-text technologies-text">
                 {project.technologies}
               </Card.Text>
-              <a className="nav-link" href={project.github} target="blank">
-                <Button
-                  type="button"
-                  variant="outline-secondary"
-                  class="btn btn-outline-secondary github-button"
-                >
-                  GitHub Link
-                </Button>
-              </a>
+              <Card.Text className="card-text">{project.description}</Card.Text>
             </Card.Body>
           </Card>
         </Col>

@@ -8,8 +8,19 @@
 
 .title {
   text-align: center;
+  margin: 0;
 }
 
 .github-button {
-  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.github-text {
+  font-size: 10px;
+}
+
+.technologies-text {
+  font-style: italic;
+  text-align: center;
+  font-size: 15px;
 }

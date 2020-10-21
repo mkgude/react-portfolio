@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-content {
+  margin: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
+}

@@ -1,15 +1,18 @@
 import React from "react";
 import Footer from "../components/Footer";
 import "../styles/style.css";
+import "./about.css";
 import Image from "../img/profile-crop-2.jpg";
+import { Col, Container, Row } from "react-bootstrap";
+
 function About() {
   return (
     <div>
-      <main className="container" id="main-section">
+      <Container className="main-container" id="main-section">
         <h2>About Me</h2>
         <hr />
-        <div className="row">
-          <div className="col">
+        <Row className="row">
+          <Col className="col">
             <img
               src={Image}
               className="rounded float-left"
@@ -29,9 +32,9 @@ function About() {
                 have seen all but one state in the US.
               </p>
             </div>
-          </div>
-        </div>
-      </main>
+          </Col>
+        </Row>
+      </Container>
       <Footer />
     </div>
   );
