@@ -12,7 +12,6 @@ function Projects() {
         <hr />
         <ProjectCard />
       </Container>
-      <Footer />
     </div>
   );
 }

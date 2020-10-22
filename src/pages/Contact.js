@@ -54,7 +54,6 @@ function Contact() {
           </div>
         </div>
       </Container>
-      <Footer />
     </div>
   );
 }
