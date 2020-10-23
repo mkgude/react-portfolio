@@ -1,9 +1,11 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom"
 import "./welcome.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Container, Jumbotron } from "react-bootstrap";
+import logo from "../img/logoairmarian.jpg"
 
 const wordArray = ["Bienvenue", "Willkommen", "Welcome", "Benvenuto",  "Välkommen", "Hoş geldin", "Bienvenido", "Witaj", "Selamat datang", "Добро пожаловать", "어서 오십시오", "Bem-vindo", "ようこそ - Yōkoso"]
 
@@ -31,23 +33,34 @@ class Welcome extends Component {
       <Container className="welcome-container">
         <Jumbotron className="welcome">
           <p className="welcome-text">{textThatChanges}</p> 
-          <h2 className="welcome-title">to Air Marian</h2>
-          <p className="welcome-message">We are ready to take you on a journey, but first you should take a look around! Please see the selections below to take you into our site.</p>
+          <Link to ="/">
+            <h2 className="welcome-title">to Air Marian</h2>
+          </Link>
+          <p className="welcome-message">Ready for a journey? Take a look around! Please see the options below to take you into our site.</p>
         </Jumbotron>
+        <hr/>
         <Container className="seat-selections">
           <Row>
             <Col>
               <Row>
                 {/* seats row 1 seat a and b */}
-                <Card.Body className="seat">About</Card.Body>
-                <Card.Body className="seat">Entertainment</Card.Body>
+                <Card.Body className="seat">
+                  <Link to ="/about">About</Link>
+                </Card.Body>
+                <Card.Body className="seat">
+                  <Link to ="/Projects">Entertainment</Link>
+                </Card.Body>
+                <Card.Body className="seat">
+                  <Link to ="/Contact">Book Now!</Link>
+                </Card.Body>
+                <Card.Body className="seat">More</Card.Body>
               </Row>
               <Row>
-                {/* seats row 2 seat a and b */}
-                <Card.Body className="seat">Book Now!</Card.Body>
-                <Card.Body className="seat">More...</Card.Body>
               </Row>
             </Col>
+          </Row>
+          <Row className="logo-row">
+            <img className="large-logo" src={logo} alt="air marian logo" />
           </Row>
         </Container>
       </Container>
