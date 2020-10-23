@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 import "./contact.css";
 import linkedin from "../img/linkedin2.png";
 import gitHub from "../img/github2.png";

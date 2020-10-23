@@ -2,7 +2,6 @@ import React from "react";
 import "./projectcard.css";
 import Projects from "../projects.json";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 // import { Container } from "react-bootstrap";
@@ -10,7 +9,7 @@ import Row from "react-bootstrap/Row";
 
 function ProjectCard() {
   return (
-    <Row>
+    <Row className="projectcard-row">
       {Projects.map((project) => (
         <Col className="card-col" xs={6} md={4} key={project.id}>
           <Card className="card">
