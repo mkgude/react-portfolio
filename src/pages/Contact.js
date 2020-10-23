@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 import "./contact.css";
 import linkedin from "../img/linkedin2.png";
 import gitHub from "../img/github2.png";
@@ -8,6 +9,7 @@ import { Container } from "react-bootstrap";
 function Contact() {
   return (
     <div>
+      <Header />
       <Container className="main-container" id="contact-section">
         <h2>Contact</h2>
         <hr />
