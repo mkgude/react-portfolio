@@ -51,7 +51,7 @@ class Welcome extends Component {
                   <Link to ="/Projects">Entertainment</Link>
                 </Card.Body>
                 <Card.Body className="seat">
-                  <Link to ="/Contact">Book Now!</Link>
+                  <Link to ="/Contact2">Book Now!</Link>
                 </Card.Body>
                 <Card.Body className="seat">More</Card.Body>
               </Row>

@@ -53,27 +53,3 @@ hr {
 .header-wrap-2 {
   background-color: rgb(183, 202, 183);
 }
-.about-content {
-  margin: 2em;
-  padding-top: 1em;
-  padding-left: 1em;
-}
-
-.icon {
-  width: 50%;
-  margin: 6em;
-  border-radius: 50%;
-}
-
-.contact-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
