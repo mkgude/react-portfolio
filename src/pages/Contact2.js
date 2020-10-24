@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import HeaderTwo from "../components/Header2";
 import "./contact2.css";
 import linkedin from "../img/linkedin-logo.png";
 import gitHub from "../img/iconfinder_github_1220319.png";
@@ -10,7 +10,7 @@ import Card from "react-bootstrap/Card"
 function ContactTwo() {
   return (
     <div>
-      <Header />
+      <HeaderTwo />
       <hr />
       <Container className="main-container" id="contact-section">
         <h2>Contact</h2>

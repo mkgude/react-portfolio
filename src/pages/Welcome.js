@@ -6,9 +6,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Container, Jumbotron } from "react-bootstrap";
-import Fade from "react-reveal/Fade"
-import logo from "../img/logoairmarian.jpg"
-import planeImage from "../img/airplane-11-256.gif"
+import Fade from "react-reveal/Fade";
+import logo from "../img/logoairmarian.jpg";
+import planeImage from "../img/airplane-11-256.gif";
 
 const wordArray = ["Bienvenue", "Willkommen", "Welcome", "Benvenuto",  "Välkommen", "Hoş geldin", "Bienvenido", "Witaj", "Selamat datang", "Добро пожаловать", "어서 오십시오", "Bem-vindo", "ようこそ - Yōkoso"]
 
