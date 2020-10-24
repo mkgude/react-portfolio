@@ -1,7 +1,9 @@
 .welcome {
   text-align: center;
   background-color: transparent;
-  margin-top: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 .welcome-text {
   font-size: 50px;
@@ -21,6 +23,10 @@
   width: 100px;
 }
 .logo-row {
+  display: flex;
+  justify-content: center;
+}
+.plane-image {
   display: flex;
   justify-content: center;
 }

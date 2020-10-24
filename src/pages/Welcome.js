@@ -1,14 +1,16 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom"
+
 import "./welcome.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Container, Jumbotron } from "react-bootstrap";
+import Fade from "react-reveal/Fade"
 import logo from "../img/logoairmarian.jpg"
+import planeImage from "../img/airplane-11-256.gif"
 
 const wordArray = ["Bienvenue", "Willkommen", "Welcome", "Benvenuto",  "Välkommen", "Hoş geldin", "Bienvenido", "Witaj", "Selamat datang", "Добро пожаловать", "어서 오십시오", "Bem-vindo", "ようこそ - Yōkoso"]
-
 
 class Welcome extends Component {
 
@@ -31,6 +33,11 @@ class Welcome extends Component {
     return (
     <div>
       <Container className="welcome-container">
+        <div className="plane-image">
+          <Fade left>
+            <img src={planeImage} alt="plane"/>
+          </Fade>
+        </div>
         <Jumbotron className="welcome">
           <p className="welcome-text">{textThatChanges}</p> 
           <Link to ="/">
@@ -43,7 +50,6 @@ class Welcome extends Component {
           <Row>
             <Col>
               <Row>
-                {/* seats row 1 seat a and b */}
                 <Card.Body className="seat">
                   <Link to ="/about">About</Link>
                 </Card.Body>
