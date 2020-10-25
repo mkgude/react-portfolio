@@ -21,7 +21,7 @@ function Header() {
       </button>
       <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
           <a className="nav-link" href="/about">About</a>
           </li>
           <li class="nav-item">

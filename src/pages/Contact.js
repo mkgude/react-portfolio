@@ -5,7 +5,8 @@ import linkedin from "../img/linkedin-logo.png";
 import gitHub from "../img/iconfinder_github_1220319.png";
 import emailEnvelope from "../img/iconfinder_Mail_4473016.png";
 import { Container, Row } from "react-bootstrap";
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
+import logo from "../img/logoairmarian.jpg";
 
 function ContactTwo() {
   return (
@@ -15,7 +16,7 @@ function ContactTwo() {
       <Container className="main-container" id="contact-section">
         <h2>Contact</h2>
         <p className="contact-text">
-        Drop us a line or give us a ring. We love to hear about your Air Marian experience and are happy to answer any questions.
+        Drop a line or give me a ring. I'd love to hear about your Air Marian experience and happy to answer any questions.
         </p>
         <Row className="contact-card-div">
             <Card className="contact-card">
@@ -39,6 +40,9 @@ function ContactTwo() {
                 </a>
             </Card>
         </Row>
+        <Row className="logo-row">
+            <img className="large-logo" src={logo} alt="air marian logo" />
+          </Row>
       </Container>
     </div>
   );

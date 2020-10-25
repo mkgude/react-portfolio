@@ -43,6 +43,7 @@ class Welcome extends Component {
           <Link to ="/">
             <h2 className="welcome-title">to <span>Air Marian</span></h2>
           </Link>
+          <h4>An experience like no other!</h4>
           <p className="welcome-message">Ready for a journey? Take a look around! Please see the options below to take you into our site.</p>
         </Jumbotron>
         <hr/>
@@ -71,6 +72,6 @@ class Welcome extends Component {
         </Container>
       </Container>
     </div>
-    )};
+  )};
 }
 export default Welcome;
