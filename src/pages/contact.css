@@ -1,0 +1,14 @@
+* {
+  margin: 1px;
+}
+#contact-section {
+  margin-bottom: 70px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 5px 4px gray;
+}
+.background-img {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}

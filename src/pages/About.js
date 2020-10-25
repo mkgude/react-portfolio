@@ -9,9 +9,9 @@ function About() {
   return (
     <div>
       <Header />
-      <Container className="main-container" id="main-section">
+      <hr />
+      <Container className="main-container" id="about-section">
         <h2>About Me</h2>
-        <hr />
         <Row className="row">
           <Col className="col">
             <img

@@ -8,9 +8,9 @@ function Projects() {
   return (
     <div>
       <Header />
-      <Container className="main-container projects-pg" id="main-section">
+      <hr />
+      <Container className="main-container projects-pg" id="portfolio-section">
         <h2>Portfolio</h2>
-        <hr />
         <ProjectCard />
       </Container>
     </div>

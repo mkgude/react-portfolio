@@ -10,16 +10,16 @@ function Contact() {
   return (
     <div>
       <Header />
+      <hr />
       <Container className="main-container" id="contact-section">
         <h2>Contact</h2>
-        <hr />
         <p className="contact-text">
           Interested in getting in touch? Use the links below!
         </p>
         <div className="contact-icons row">
           <div className="contact-div col-sm-4">
-            <div className="background-img">
-              <a href="https://www.linkedin.com/in/mkgude">
+            <div>
+              <a className="background-img" href="https://www.linkedin.com/in/mkgude">
                 <img
                   src={linkedin}
                   className="icon"
@@ -30,8 +30,8 @@ function Contact() {
             </div>
           </div>
           <div className="contact-div col-sm-4">
-            <div className="background-img">
-              <a href="https://github.com/mkgude">
+            <div>
+              <a className="background-img" href="https://github.com/mkgude">
                 <img
                   src={gitHub}
                   className="icon"
@@ -42,8 +42,8 @@ function Contact() {
             </div>
           </div>
           <div className="contact-div col-sm-4">
-            <div className="background-img">
-              <a href="mailto:mkgude@gmail.com">
+            <div>
+              <a className="background-img" href="mailto:mkgude@gmail.com">
                 <img
                   src={emailEnvelope}
                   className="icon"

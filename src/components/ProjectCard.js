@@ -11,7 +11,7 @@ function ProjectCard() {
   return (
     <Row className="projectcard-row">
       {Projects.map((project) => (
-        <Col className="card-col" xs={6} md={4} key={project.id}>
+        <Col className="card-col" xs={12} md={4} key={project.id}>
           <Card className="card project-card">
             <a href={project.href}>
               <Card.Img
