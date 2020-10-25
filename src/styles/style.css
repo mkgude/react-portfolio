@@ -14,11 +14,6 @@ h2 {
 p {
   color: rgb(94, 92, 92);
 }
-#profile-image {
-  margin: 10px;
-  width: 200px;
-  height: auto;
-}
 .form-text {
   text-transform: lowercase;
 }
@@ -34,8 +29,4 @@ hr {
 .header-wrap {
   height: auto;
   width: 100%;
-}
-
-.header-wrap-2 {
-  background-color: rgb(183, 202, 183);
 }

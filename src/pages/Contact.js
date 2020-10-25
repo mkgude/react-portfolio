@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import "./contact2.css";
+import "./contact.css";
 import linkedin from "../img/linkedin-logo.png";
 import gitHub from "../img/iconfinder_github_1220319.png";
 import emailEnvelope from "../img/iconfinder_Mail_4473016.png";

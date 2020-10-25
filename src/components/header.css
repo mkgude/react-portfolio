@@ -10,6 +10,9 @@
   display: flex;
   justify-content: center;
 }
+.plane-image {
+  margin-left: 100px;
+}
 .nav-options {
   text-align: right;
 }
@@ -19,7 +22,7 @@
   color: navy;
 }
 .nav-link {
-  color: navy;
+  color: grey;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
 }

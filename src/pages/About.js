@@ -11,7 +11,7 @@ function About() {
       <Header />
       <hr />
       <Container className="main-container" id="about-section">
-        <h2>About Marian Gude</h2>
+        <h2>About Me</h2>
         <Row className="row">
           <Col className="col">
             <img
@@ -26,6 +26,8 @@ function About() {
                 living in New York City. I aspire to help you achieve your goals
                 for flawless UX/UI design and with clean code to back it!
               </p>
+              {/* <p>My technology skils include: <span></span></p>
+              <p>My business skils include: <span></span></p> */}
               <p>
                 Outside of my aspirations to be the web developer you need, I
                 also love to bake, hang out with my family and friends and

@@ -1,6 +1,7 @@
 .porfolio-img {
   height: 179px;
   border: lightgrey 1px solid;
+  border-radius: 10%;
 }
 .project-card {
   border: none;

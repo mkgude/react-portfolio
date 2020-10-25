@@ -10,7 +10,7 @@ function Projects() {
       <Header />
       <hr />
       <Container className="main-container projects-pg" id="portfolio-section">
-        <h2>Portfolio</h2>
+        <h2>Projects</h2>
         <ProjectCard />
       </Container>
     </div>
