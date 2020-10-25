@@ -12,8 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Route exact path="/welcome" component={Welcome} />
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Welcome} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />

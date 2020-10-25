@@ -13,10 +13,13 @@
   font-weight: 700;
   text-decoration: none;
 }
+span {
+  font-family: "Vast Shadow", cursive;
+}
 .welcome-title:hover {
   text-decoration: none;
 }
-.seat-selections {
+.options {
   width: 75%;
 }
 .large-logo {

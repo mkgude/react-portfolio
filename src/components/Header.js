@@ -1,76 +1,39 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
 import "../styles/style.css";
 import "./header.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-// import { Button } from "react-bootstrap";
-import Dropdown from "react-bootstrap/Dropdown";
-import flower from "../img/flower.png";
+import planeImage from "../img/airplane-11-128.png";
+import Fade from "react-reveal/Fade"
 
-function Header() {
+function HeaderTwo() {
   // navigation that appears on every page
-  const location = useLocation();
 
   return (
-    <Navbar className="header-wrap navbar-measurments">
-      <Nav className="navbar navbar-light bg-light header-width">
-        <Link
-          to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
-        >
-          <h1>Marian Gude</h1>
-        </Link>
-
-        <Dropdown className="justify-content-end dropdown">
-          <Dropdown.Toggle
-            className="dropdown-button justify-content-end"
-            variant="light"
-          >
-            <img className="menu-icon" src={flower} alt="menu dropdown" />
-          </Dropdown.Toggle>
-
-          <Dropdown.Menu menuAlign="right" id="dropdown-menu-align-right">
-            <Dropdown.Item>
-              <Link
-                to="/about"
-                className={
-                  location.pathname === "/about"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              >
-                About
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                to="/projects"
-                className={
-                  location.pathname === "/projects"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              >
-                Portfolio
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                to="/contact"
-                className={
-                  location.pathname === "/contact"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              >
-                Contact
-              </Link>
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-      </Nav>
-    </Navbar>
+    <navbar className="header-wrap navbar-measurments">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="header-plane-image">
+            <Fade left>
+                <img src={planeImage} alt="plane"/>
+            </Fade>
+        </div>
+        <h1 className="header-title">Air Marian</h1>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse my-2 justify-content-end" id="navbarTogglerDemo02">
+            <ul className="nav justify-content-end">
+            <li className="nav-item active">
+                <a className="nav-link" href="/about">About <span className="sr-only"></span></a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/projects">Portfolio</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+      </nav>
+    </navbar>  
   );
 }
-export default Header;
+export default HeaderTwo;

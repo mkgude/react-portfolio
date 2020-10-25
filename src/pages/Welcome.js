@@ -41,25 +41,25 @@ class Welcome extends Component {
         <Jumbotron className="welcome">
           <p className="welcome-text">{textThatChanges}</p> 
           <Link to ="/">
-            <h2 className="welcome-title">to Air Marian</h2>
+            <h2 className="welcome-title">to <span>Air Marian</span></h2>
           </Link>
           <p className="welcome-message">Ready for a journey? Take a look around! Please see the options below to take you into our site.</p>
         </Jumbotron>
         <hr/>
-        <Container className="seat-selections">
+        <Container className="options">
           <Row>
             <Col>
               <Row>
-                <Card.Body className="seat">
+                <Card.Body className="option-item">
                   <Link to ="/about">About</Link>
                 </Card.Body>
-                <Card.Body className="seat">
-                  <Link to ="/Projects">Entertainment</Link>
+                <Card.Body className="option-item">
+                  <Link to ="/projects">Entertainment</Link>
                 </Card.Body>
-                <Card.Body className="seat">
-                  <Link to ="/Contact2">Book Now!</Link>
+                <Card.Body className="option-item">
+                  <Link to ="/contact">Book Now!</Link>
                 </Card.Body>
-                <Card.Body className="seat">More</Card.Body>
+                <Card.Body className="option-item">More</Card.Body>
               </Row>
               <Row>
               </Row>

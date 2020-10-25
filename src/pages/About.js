@@ -11,7 +11,7 @@ function About() {
       <Header />
       <hr />
       <Container className="main-container" id="about-section">
-        <h2>About Me</h2>
+        <h2>About Marian Gude</h2>
         <Row className="row">
           <Col className="col">
             <img

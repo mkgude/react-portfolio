@@ -3,23 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 header {
   margin-top: 15px;
   text-transform: lowercase;
 }
-
-.nav-link {
-  color: rgb(79, 141, 79);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
-}
-
-#contact-section {
-  margin-top: 50px;
-  align-content: center;
-}
-
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
@@ -32,12 +19,11 @@ p {
   width: 200px;
   height: auto;
 }
-
 .form-text {
   text-transform: lowercase;
 }
 hr {
-  border: 3px solid rgb(175, 206, 175);
+  border: 3px solid rgb(93, 93, 126);
   width: 100%;
 }
 
