@@ -48,5 +48,14 @@
     "alt": "guess number",
     "image": "https://st.depositphotos.com/1007989/2764/i/950/depositphotos_27647955-stock-photo-colorful-numbers.jpg",
     "github": "https://github.com/mkgude/guess-my-number"
+  },
+  { "id": 6,
+    "href": "https://mkgude.github.io/pig-game/",
+    "title": "2 Player Dice",
+    "description": "Play with a friend, try to get to 50 before they do!",
+    "technologies": "Javascript",
+    "alt": "dice",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41hG8Ku2-XL._AC_SX355_.jpg",
+    "github": "https://github.com/mkgude/pig-game"
   }
 ]
