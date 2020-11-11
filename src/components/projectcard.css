@@ -5,6 +5,8 @@
 }
 .project-card {
   border: none;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -28,4 +30,17 @@
 
 .projectcard-row {
   background: transparent;
+}
+
+/* @media screen and (min-width: 786px) {
+} */
+
+@media screen and (min-width: 400px) {
+  .card-col {
+    display: flex;
+    justify-content: center;
+  }
+  .project-card {
+    width: 80%;
+  }
 }
