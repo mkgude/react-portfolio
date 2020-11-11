@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row";
 
 function ProjectCard() {
   return (
-    <Row className="projectcard-row">
+    <Row className="projectcard-row" xl={4}>
       {Projects.map((project) => (
         <Col className="card-col" md={4} lg={4} key={project.id}>
           <Card className="card project-card">

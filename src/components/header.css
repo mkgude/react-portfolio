@@ -11,7 +11,8 @@
   justify-content: center;
 }
 .plane-image {
-  margin-left: 100px;
+  /* margin-left: px; */
+  width: 50px;
 }
 .nav-options {
   text-align: right;

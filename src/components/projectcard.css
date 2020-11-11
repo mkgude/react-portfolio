@@ -35,10 +35,11 @@
 /* @media screen and (min-width: 786px) {
 } */
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 600px) {
   .card-col {
     display: flex;
     justify-content: center;
+    padding: 5px;
   }
   .project-card {
     width: 80%;

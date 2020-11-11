@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/about">
+      <a class="navbar-brand header-info" href="/about">
         <div className="header-plane-image">
             <Fade left>
                 <img className="plane-image" src={planeImage} alt="plane"/>
