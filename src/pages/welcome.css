@@ -29,7 +29,7 @@ span {
   display: flex;
   justify-content: center;
 }
-.plane-image {
+div.welcome-plane-image {
   display: flex;
   justify-content: center;
 }

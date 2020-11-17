@@ -33,7 +33,7 @@ class Welcome extends Component {
     return (
     <div>
       <Container className="welcome-container">
-        <div className="plane-image">
+        <div className="welcome-plane-image">
           <Fade left>
             <img src={planeImage} alt="plane"/>
           </Fade>
