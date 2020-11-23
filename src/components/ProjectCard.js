@@ -2,7 +2,7 @@ import React from "react";
 import "./projectcard.css";
 import Projects from "../projects.json";
 import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 // import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
@@ -27,7 +27,7 @@ function ProjectCard() {
                 href={project.github}
                 target="blank"
               >
-                <Link className="github-text">GitHub Repository</Link>
+                <p className="github-text">GitHub Repository</p>
               </a>
               <Card.Text className="card-text technologies-text">
                 {project.technologies}

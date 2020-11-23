@@ -57,5 +57,14 @@
     "alt": "dice",
     "image": "https://images-na.ssl-images-amazon.com/images/I/41hG8Ku2-XL._AC_SX355_.jpg",
     "github": "https://github.com/mkgude/pig-game"
+  },
+  { "id": 7,
+    "href": "https://first-ecommerce-app.herokuapp.com/",
+    "title": "Ecommerce React App",
+    "description": "Created a basic react app for a simple e-commerce site with filter applied",
+    "technologies": "React, Redux, MongoDB, Express, Node.js",
+    "alt": "shopping bag",
+    "image": "https://us.123rf.com/450wm/dzein/dzein1501/dzein150100029/35148397-stock-vector-set-of-colorful-empty-shopping-bags-isolated-vector-illustration.jpg?ver=6",
+    "github": "https://github.com/mkgude/first-ecommerce-app"
   }
 ]
